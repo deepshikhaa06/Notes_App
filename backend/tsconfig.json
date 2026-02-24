@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                 // Modern JS output
+    "module": "CommonJS",               // Node-friendly module system
+    "rootDir": "src",                   // Source files folder
+    "outDir": "dist",                   // Compiled files folder
+    "strict": true,                     // Enables all strict type-checking
+    "esModuleInterop": true,            // Fixes import issues with commonjs packages
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,               // Skip type checks for node_modules
+    "sourceMap": true,                  // Optional, useful for debugging
+    "declaration": true                 // Optional, generates .d.ts files
+  },
+  "include": ["src"]
+}
